@@ -1,5 +1,18 @@
-ultralytics
-opencv-python
-pillow
-easyocr
-pymupdf
+# Core ML and Computer Vision
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# PDF Processing
+pymupdf>=1.23.0
+
+# OCR and Text Processing
+rapidocr-onnxruntime>=1.2.0
+
+# Additional dependencies that ultralytics needs
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ONNX Runtime for RapidOCR
+onnxruntime>=1.15.0
